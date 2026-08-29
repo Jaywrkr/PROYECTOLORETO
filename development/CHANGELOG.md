@@ -12,6 +12,7 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 
 - Propuesta no vinculante de MVP, investigación técnica de escritorio y panorama competitivo inicial.
 - Marco preliminar de seguridad, modalidades de despliegue y criterios de piloto, todos pendientes de validación práctica.
+- Plan de prueba de factibilidad de solo lectura, con límites, controles, evidencia y criterios de cierre.
 
 ## [2026-08-29]
 

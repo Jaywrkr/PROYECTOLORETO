@@ -7,6 +7,7 @@ Esta carpeta preserva evidencia externa y análisis de descubrimiento. Cada docu
 | Documento | Propósito | Estado |
 | --- | --- | --- |
 | [TECHNICAL-FEASIBILITY-INITIAL.md](TECHNICAL-FEASIBILITY-INITIAL.md) | Factibilidad de escritorio y alcance candidato del MVP | TO INVESTIGATE |
+| [PILOT-READONLY-PLAN.md](PILOT-READONLY-PLAN.md) | Plan ejecutable y registro de evidencia para la prueba de solo lectura | TO INVESTIGATE |
 | [SECURITY-DEPLOYMENT-INITIAL.md](SECURITY-DEPLOYMENT-INITIAL.md) | Controles, despliegue y criterios de piloto | TO INVESTIGATE |
 | [COMPETITIVE-LANDSCAPE.md](COMPETITIVE-LANDSCAPE.md) | Alternativas de mercado y diferenciación a validar | TO INVESTIGATE |
 

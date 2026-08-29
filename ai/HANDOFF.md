@@ -12,6 +12,7 @@
 - Se registró el ADR-0001 sobre usar este repositorio como fuente de verdad.
 - Se capturó la hipótesis de producto sin cerrar decisiones técnicas o comerciales.
 - Se propuso, sin aprobar, un MVP de solo lectura con vSphere y una fuente de gestión de servidores; se añadieron límites, competencia y criterios de seguridad a investigar.
+- Se preparó el plan ejecutable de prueba de factibilidad, incluido el registro de evidencia no sensible y cierre seguro.
 
 ## Decisiones recientes
 
@@ -45,4 +46,5 @@ Preparar una prueba de factibilidad de solo lectura, con un entorno vSphere y un
 - [Registro de decisiones](../development/DECISIONS.md)
 - [Roadmap](../development/ROADMAP.md)
 - [Investigación técnica](../research/TECHNICAL-FEASIBILITY-INITIAL.md)
+- [Plan de piloto de solo lectura](../research/PILOT-READONLY-PLAN.md)
 - [Seguridad y despliegue](../research/SECURITY-DEPLOYMENT-INITIAL.md)
