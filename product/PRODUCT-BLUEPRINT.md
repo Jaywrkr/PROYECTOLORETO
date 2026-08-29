@@ -62,7 +62,11 @@ Ver [SECURITY.md](../architecture/SECURITY.md).
 
 ## MVP
 
-**HYPOTHESIS:** El MVP debería resolver un caso de alto valor con una cobertura de tecnologías limitada y controles de aislamiento desde el inicio.
+**HYPOTHESIS — candidato a validar:** El MVP podría entregar una vista de solo lectura, por tenant, de inventario y salud operativa para un entorno vSphere y una única fuente de gestión de servidores (Lenovo XClarity Administrator o HPE iLO/Redfish, según disponibilidad técnica del piloto). Debe mostrar fuente y fecha de actualización de cada resultado.
+
+Se excluyen inicialmente automatización, cambios de configuración, descubrimiento de red generalizado, cobertura multi-fabricante amplia y acceso MCP expuesto a terceros. Las consultas en lenguaje natural son una extensión a evaluar después de validar la calidad de los datos y el control de acceso.
+
+La justificación y los límites están en [Factibilidad técnica inicial](../research/TECHNICAL-FEASIBILITY-INITIAL.md).
 
 **OPEN QUESTION:** ¿Cuál caso de uso, segmento de cliente y conjunto de integraciones ofrece la validación más rápida?
 

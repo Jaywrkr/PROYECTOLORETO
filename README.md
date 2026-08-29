@@ -23,6 +23,7 @@ Las instrucciones completas para agentes están en [AI-INSTRUCTIONS.md](ai/AI-IN
 | --- | --- | --- |
 | Producto | [PRODUCT-BLUEPRINT.md](product/PRODUCT-BLUEPRINT.md) | Hipótesis, alcance, criterios de validación y preguntas de producto. |
 | Arquitectura | [ARCHITECTURE.md](architecture/ARCHITECTURE.md) | Arquitectura conceptual y sus dominios de investigación. |
+| Investigación | [README.md](research/README.md) | Evidencia externa, análisis inicial y límites de las conclusiones. |
 | Desarrollo | [ROADMAP.md](development/ROADMAP.md) | Fases de descubrimiento; no es un compromiso de entrega. |
 | Continuidad | [HANDOFF.md](ai/HANDOFF.md) | Estado de la última sesión y siguiente paso recomendado. |
 

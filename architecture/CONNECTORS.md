@@ -33,3 +33,9 @@ La información podría obtenerse mediante APIs de fabricante, SNMP, logs, herra
 1. ¿Qué conector ofrece el caso de uso de MVP más viable?
 2. ¿Cuándo basta con conectarse a una herramienta de gestión existente y cuándo es necesario acceso directo?
 3. ¿Qué datos nunca deben salir del entorno del cliente?
+
+## Orden de investigación candidato
+
+**HYPOTHESIS:** Priorizar vSphere como fuente transversal de virtualización y, como segunda fuente, Lenovo XClarity Administrator o HPE iLO/Redfish. Esta propuesta no selecciona un fabricante; busca limitar el primer piloto a una fuente de virtualización y una de hardware con API documentada.
+
+La evidencia de escritorio, la matriz de pruebas y sus límites se mantienen en [TECHNICAL-FEASIBILITY-INITIAL.md](../research/TECHNICAL-FEASIBILITY-INITIAL.md).

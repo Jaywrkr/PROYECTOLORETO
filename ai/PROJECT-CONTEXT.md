@@ -47,5 +47,6 @@ Si existe conflicto, no inventes una reconciliación: señálalo, conserva el hi
 - Arquitectura: [ARCHITECTURE.md](../architecture/ARCHITECTURE.md)
 - Seguridad y aislamiento: [SECURITY.md](../architecture/SECURITY.md), [MULTITENANCY.md](../architecture/MULTITENANCY.md)
 - Conectores: [CONNECTORS.md](../architecture/CONNECTORS.md)
+- Investigación inicial: [README.md](../research/README.md)
 - Decisiones: [DECISIONS.md](../development/DECISIONS.md)
 - Estado de sesión: [HANDOFF.md](HANDOFF.md)

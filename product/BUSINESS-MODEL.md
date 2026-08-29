@@ -9,6 +9,12 @@
 - Licencia y soporte para instalación on-premise.
 - Servicios de implementación, integración y soporte especializado.
 
+## Paquete comercial candidato para validar
+
+**HYPOTHESIS:** Un piloto podría combinar un cargo de habilitación (instalación, conexión y normalización de fuentes) con una suscripción recurrente vinculada a un sitio o entorno gestionado. No se han definido precios, unidad de cobro ni empaquetamiento definitivo.
+
+La hipótesis busca separar el coste inicial de integrar infraestructura heterogénea del valor recurrente de mantener una vista actualizada y operable. Debe contrastarse contra costes de soporte, complejidad de despliegue y alternativas del mercado.
+
 ## Preguntas de validación
 
 1. ¿Qué unidad de valor percibe cada perfil de cliente?
@@ -20,3 +26,5 @@
 ## Evidencia a recopilar
 
 **TO INVESTIGATE:** Entrevistas, disposición a pagar, costes de operación, análisis competitivo, requisitos contractuales y pilotos acotados.
+
+Ver [panorama competitivo inicial](../research/COMPETITIVE-LANDSCAPE.md) y [viabilidad y alcance candidato](../research/TECHNICAL-FEASIBILITY-INITIAL.md).

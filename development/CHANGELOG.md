@@ -8,6 +8,11 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 
 - Investigación de problema, clientes, competencia, integraciones, seguridad, viabilidad y modelo comercial.
 
+### Added
+
+- Propuesta no vinculante de MVP, investigación técnica de escritorio y panorama competitivo inicial.
+- Marco preliminar de seguridad, modalidades de despliegue y criterios de piloto, todos pendientes de validación práctica.
+
 ## [2026-08-29]
 
 ### Added

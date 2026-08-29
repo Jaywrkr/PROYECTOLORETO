@@ -26,3 +26,11 @@
 ## Próximo trabajo
 
 Crear requisitos de seguridad y privacidad basados en los clientes objetivo, el modelo de despliegue y una evaluación formal de amenazas.
+
+## Marco inicial a evaluar
+
+**HYPOTHESIS:** Usar principios de zero trust como referencia: autenticar y autorizar de forma explícita identidades humanas, de servicio y de Collector; no confiar solo en la ubicación de red; y registrar accesos y cambios de privilegios. Esto no selecciona proveedor ni mecanismo concreto.
+
+NIST describe zero trust como un enfoque que centra la protección en recursos y no concede confianza implícita por ubicación o propiedad de red. Fuente consultada el 2026-08-29: [NIST SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final).
+
+Ver también [seguridad y despliegue inicial](../research/SECURITY-DEPLOYMENT-INITIAL.md).
