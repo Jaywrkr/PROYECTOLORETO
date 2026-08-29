@@ -1,0 +1,13 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Future application artifacts (not part of the discovery documentation)
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
