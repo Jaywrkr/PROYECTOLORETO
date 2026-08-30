@@ -68,6 +68,8 @@ Se excluyen inicialmente automatización, cambios de configuración, descubrimie
 
 La justificación y los límites están en [Factibilidad técnica inicial](../research/TECHNICAL-FEASIBILITY-INITIAL.md).
 
+La experiencia y los criterios funcionales candidatos están en [MVP-SPECIFICATION.md](MVP-SPECIFICATION.md).
+
 **OPEN QUESTION:** ¿Cuál caso de uso, segmento de cliente y conjunto de integraciones ofrece la validación más rápida?
 
 ## Riesgos

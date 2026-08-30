@@ -1,6 +1,6 @@
 # Contexto del proyecto para humanos y agentes
 
-> **Leer antes de trabajar.** Última actualización: 2026-08-29.
+> **Leer antes de trabajar.** Última actualización: 2026-08-30.
 
 ## Misión del repositorio
 
@@ -43,8 +43,10 @@ Si existe conflicto, no inventes una reconciliación: señálalo, conserva el hi
 ## Navegación rápida
 
 - Intención y alcance: [PRODUCT-BLUEPRINT.md](../product/PRODUCT-BLUEPRINT.md)
+- Especificación de MVP: [MVP-SPECIFICATION.md](../product/MVP-SPECIFICATION.md)
 - Casos de uso: [USE-CASES.md](../product/USE-CASES.md)
 - Arquitectura: [ARCHITECTURE.md](../architecture/ARCHITECTURE.md)
+- Modelo canónico: [CANONICAL-DATA-MODEL.md](../architecture/CANONICAL-DATA-MODEL.md)
 - Seguridad y aislamiento: [SECURITY.md](../architecture/SECURITY.md), [MULTITENANCY.md](../architecture/MULTITENANCY.md)
 - Conectores: [CONNECTORS.md](../architecture/CONNECTORS.md)
 - Investigación inicial: [README.md](../research/README.md)

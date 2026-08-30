@@ -1,6 +1,6 @@
 # Handoff de Proyecto Loreto
 
-> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-08-29.
+> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-08-30.
 
 ## Estado actual
 
@@ -13,6 +13,7 @@
 - Se capturó la hipótesis de producto sin cerrar decisiones técnicas o comerciales.
 - Se propuso, sin aprobar, un MVP de solo lectura con vSphere y una fuente de gestión de servidores; se añadieron límites, competencia y criterios de seguridad a investigar.
 - Se preparó el plan ejecutable de prueba de factibilidad, incluido el registro de evidencia no sensible y cierre seguro.
+- Se definieron, como hipótesis, las vistas mínimas del MVP y el modelo canónico de tenant, fuentes, activos, observaciones y relaciones.
 
 ## Decisiones recientes
 
@@ -34,13 +35,15 @@
 
 ## Próximo paso recomendado
 
-Preparar una prueba de factibilidad de solo lectura, con un entorno vSphere y una fuente de servidores disponible. Definir datos mínimos, permisos, límites de red, criterios de éxito y una forma de borrar los datos de prueba.
+Revisar la especificación de MVP y el modelo canónico con el equipo de Coresolutions. Luego preparar una prueba de factibilidad de solo lectura con un entorno vSphere y una fuente de servidores disponible, usando los campos y relaciones definidos como lista de validación.
 
 ## Archivos relevantes
 
 - [Blueprint de producto](../product/PRODUCT-BLUEPRINT.md)
 - [Casos de uso](../product/USE-CASES.md)
+- [Especificación de MVP](../product/MVP-SPECIFICATION.md)
 - [Arquitectura conceptual](../architecture/ARCHITECTURE.md)
+- [Modelo canónico](../architecture/CANONICAL-DATA-MODEL.md)
 - [Conectores](../architecture/CONNECTORS.md)
 - [Seguridad](../architecture/SECURITY.md)
 - [Registro de decisiones](../development/DECISIONS.md)
