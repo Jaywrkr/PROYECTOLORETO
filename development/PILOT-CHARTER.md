@@ -106,4 +106,5 @@ No se ha elegido todavía ninguna opción.
 - [Modelo canónico de datos](../architecture/CANONICAL-DATA-MODEL.md)
 - [Modelo de amenazas](../architecture/THREAT-MODEL-MVP.md)
 - [Plan de piloto de solo lectura](../research/PILOT-READONLY-PLAN.md)
+- [Guia de preparacion del laboratorio interno (PDF)](../output/pdf/guia-laboratorio-interno-loreto.pdf)
 - [Registro de decisiones](DECISIONS.md)

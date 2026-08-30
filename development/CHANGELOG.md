@@ -18,6 +18,7 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 - Carta de piloto que consolida hipótesis, roles, criterios de entrada/salida, evidencia y decisiones posibles.
 - Backlog de investigación que separa dependencias de piloto, decisión de MVP y futuras integraciones.
 - Investigación de escritorio de integraciones posteriores: Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat.
+- Guia PDF paso a paso para preparar el laboratorio interno de VMware y XClarity.
 
 ## [2026-08-29]
 

@@ -18,6 +18,7 @@
 - Se consolidó el paquete de preparación en una carta de piloto con hipótesis, roles, puertas y criterios de decisión.
 - Se ordenó la investigación pendiente por dependencias del piloto, validación de MVP y futuras integraciones.
 - Se recopiló investigación de escritorio para Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat; ninguna integración fue seleccionada.
+- Se creó una guia PDF operativa para que infraestructura prepare el laboratorio interno de Loreto.
 
 ## Decisiones recientes
 
@@ -50,6 +51,7 @@ Revisar la especificación de MVP y el modelo canónico con el equipo de Coresol
 - [Modelo canónico](../architecture/CANONICAL-DATA-MODEL.md)
 - [Modelo de amenazas](../architecture/THREAT-MODEL-MVP.md)
 - [Carta de piloto](../development/PILOT-CHARTER.md)
+- [Guia de laboratorio (PDF)](../output/pdf/guia-laboratorio-interno-loreto.pdf)
 - [Conectores](../architecture/CONNECTORS.md)
 - [Seguridad](../architecture/SECURITY.md)
 - [Registro de decisiones](../development/DECISIONS.md)
