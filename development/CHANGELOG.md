@@ -16,6 +16,7 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 - Especificación funcional del MVP candidato y modelo canónico conceptual para fuentes, activos, observaciones y relaciones.
 - Modelo de amenazas del MVP de solo lectura, con límites de confianza, escenarios, controles y pruebas candidatas.
 - Carta de piloto que consolida hipótesis, roles, criterios de entrada/salida, evidencia y decisiones posibles.
+- Backlog de investigación que separa dependencias de piloto, decisión de MVP y futuras integraciones.
 
 ## [2026-08-29]
 

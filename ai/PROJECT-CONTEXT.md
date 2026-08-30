@@ -51,6 +51,7 @@ Si existe conflicto, no inventes una reconciliación: señálalo, conserva el hi
 - Modelo de amenazas: [THREAT-MODEL-MVP.md](../architecture/THREAT-MODEL-MVP.md)
 - Conectores: [CONNECTORS.md](../architecture/CONNECTORS.md)
 - Investigación inicial: [README.md](../research/README.md)
+- Backlog de investigación: [RESEARCH-BACKLOG.md](../research/RESEARCH-BACKLOG.md)
 - Decisiones: [DECISIONS.md](../development/DECISIONS.md)
 - Carta de piloto: [PILOT-CHARTER.md](../development/PILOT-CHARTER.md)
 - Estado de sesión: [HANDOFF.md](HANDOFF.md)

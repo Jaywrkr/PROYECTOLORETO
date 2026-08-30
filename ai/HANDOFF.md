@@ -16,6 +16,7 @@
 - Se definieron, como hipótesis, las vistas mínimas del MVP y el modelo canónico de tenant, fuentes, activos, observaciones y relaciones.
 - Se documentó el modelo de amenazas del piloto con pruebas de aislamiento, privilegio mínimo, secretos, Collector y calidad de datos.
 - Se consolidó el paquete de preparación en una carta de piloto con hipótesis, roles, puertas y criterios de decisión.
+- Se ordenó la investigación pendiente por dependencias del piloto, validación de MVP y futuras integraciones.
 
 ## Decisiones recientes
 
@@ -55,3 +56,4 @@ Revisar la especificación de MVP y el modelo canónico con el equipo de Coresol
 - [Investigación técnica](../research/TECHNICAL-FEASIBILITY-INITIAL.md)
 - [Plan de piloto de solo lectura](../research/PILOT-READONLY-PLAN.md)
 - [Seguridad y despliegue](../research/SECURITY-DEPLOYMENT-INITIAL.md)
+- [Backlog de investigación](../research/RESEARCH-BACKLOG.md)

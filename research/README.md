@@ -10,6 +10,7 @@ Esta carpeta preserva evidencia externa y análisis de descubrimiento. Cada docu
 | [PILOT-READONLY-PLAN.md](PILOT-READONLY-PLAN.md) | Plan ejecutable y registro de evidencia para la prueba de solo lectura | TO INVESTIGATE |
 | [SECURITY-DEPLOYMENT-INITIAL.md](SECURITY-DEPLOYMENT-INITIAL.md) | Controles, despliegue y criterios de piloto | TO INVESTIGATE |
 | [COMPETITIVE-LANDSCAPE.md](COMPETITIVE-LANDSCAPE.md) | Alternativas de mercado y diferenciación a validar | TO INVESTIGATE |
+| [RESEARCH-BACKLOG.md](RESEARCH-BACKLOG.md) | Investigación ordenada por dependencias y evidencia requerida | TO INVESTIGATE |
 
 ## Regla de evidencia
 
