@@ -15,6 +15,7 @@
 - Se preparó el plan ejecutable de prueba de factibilidad, incluido el registro de evidencia no sensible y cierre seguro.
 - Se definieron, como hipótesis, las vistas mínimas del MVP y el modelo canónico de tenant, fuentes, activos, observaciones y relaciones.
 - Se documentó el modelo de amenazas del piloto con pruebas de aislamiento, privilegio mínimo, secretos, Collector y calidad de datos.
+- Se consolidó el paquete de preparación en una carta de piloto con hipótesis, roles, puertas y criterios de decisión.
 
 ## Decisiones recientes
 
@@ -46,6 +47,7 @@ Revisar la especificación de MVP y el modelo canónico con el equipo de Coresol
 - [Arquitectura conceptual](../architecture/ARCHITECTURE.md)
 - [Modelo canónico](../architecture/CANONICAL-DATA-MODEL.md)
 - [Modelo de amenazas](../architecture/THREAT-MODEL-MVP.md)
+- [Carta de piloto](../development/PILOT-CHARTER.md)
 - [Conectores](../architecture/CONNECTORS.md)
 - [Seguridad](../architecture/SECURITY.md)
 - [Registro de decisiones](../development/DECISIONS.md)
