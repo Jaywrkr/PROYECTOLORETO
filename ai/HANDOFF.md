@@ -17,6 +17,7 @@
 - Se documentó el modelo de amenazas del piloto con pruebas de aislamiento, privilegio mínimo, secretos, Collector y calidad de datos.
 - Se consolidó el paquete de preparación en una carta de piloto con hipótesis, roles, puertas y criterios de decisión.
 - Se ordenó la investigación pendiente por dependencias del piloto, validación de MVP y futuras integraciones.
+- Se recopiló investigación de escritorio para Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat; ninguna integración fue seleccionada.
 
 ## Decisiones recientes
 
@@ -57,3 +58,4 @@ Revisar la especificación de MVP y el modelo canónico con el equipo de Coresol
 - [Plan de piloto de solo lectura](../research/PILOT-READONLY-PLAN.md)
 - [Seguridad y despliegue](../research/SECURITY-DEPLOYMENT-INITIAL.md)
 - [Backlog de investigación](../research/RESEARCH-BACKLOG.md)
+- [Investigación de integraciones posteriores](../research/CONNECTOR-EXPANSION-DESK-RESEARCH.md)

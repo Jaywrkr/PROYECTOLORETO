@@ -39,3 +39,5 @@ La información podría obtenerse mediante APIs de fabricante, SNMP, logs, herra
 **HYPOTHESIS:** Priorizar vSphere como fuente transversal de virtualización y, como segunda fuente, Lenovo XClarity Administrator o HPE iLO/Redfish. Esta propuesta no selecciona un fabricante; busca limitar el primer piloto a una fuente de virtualización y una de hardware con API documentada.
 
 La evidencia de escritorio, la matriz de pruebas y sus límites se mantienen en [TECHNICAL-FEASIBILITY-INITIAL.md](../research/TECHNICAL-FEASIBILITY-INITIAL.md).
+
+La investigación de familias posteriores al piloto está en [CONNECTOR-EXPANSION-DESK-RESEARCH.md](../research/CONNECTOR-EXPANSION-DESK-RESEARCH.md).

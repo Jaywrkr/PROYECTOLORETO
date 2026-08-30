@@ -11,6 +11,7 @@ Esta carpeta preserva evidencia externa y análisis de descubrimiento. Cada docu
 | [SECURITY-DEPLOYMENT-INITIAL.md](SECURITY-DEPLOYMENT-INITIAL.md) | Controles, despliegue y criterios de piloto | TO INVESTIGATE |
 | [COMPETITIVE-LANDSCAPE.md](COMPETITIVE-LANDSCAPE.md) | Alternativas de mercado y diferenciación a validar | TO INVESTIGATE |
 | [RESEARCH-BACKLOG.md](RESEARCH-BACKLOG.md) | Investigación ordenada por dependencias y evidencia requerida | TO INVESTIGATE |
+| [CONNECTOR-EXPANSION-DESK-RESEARCH.md](CONNECTOR-EXPANSION-DESK-RESEARCH.md) | Superficies de integración para Veeam, Check Point, IBM, Cisco, Aruba y Red Hat | TO INVESTIGATE |
 
 ## Regla de evidencia
 

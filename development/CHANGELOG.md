@@ -17,6 +17,7 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 - Modelo de amenazas del MVP de solo lectura, con límites de confianza, escenarios, controles y pruebas candidatas.
 - Carta de piloto que consolida hipótesis, roles, criterios de entrada/salida, evidencia y decisiones posibles.
 - Backlog de investigación que separa dependencias de piloto, decisión de MVP y futuras integraciones.
+- Investigación de escritorio de integraciones posteriores: Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat.
 
 ## [2026-08-29]
 
