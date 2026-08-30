@@ -34,3 +34,5 @@ Crear requisitos de seguridad y privacidad basados en los clientes objetivo, el 
 NIST describe zero trust como un enfoque que centra la protección en recursos y no concede confianza implícita por ubicación o propiedad de red. Fuente consultada el 2026-08-29: [NIST SP 800-207](https://csrc.nist.gov/pubs/sp/800/207/final).
 
 Ver también [seguridad y despliegue inicial](../research/SECURITY-DEPLOYMENT-INITIAL.md).
+
+El análisis de escenarios y puertas de seguridad para el piloto está en [THREAT-MODEL-MVP.md](THREAT-MODEL-MVP.md).

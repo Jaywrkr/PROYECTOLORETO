@@ -48,6 +48,7 @@ Si existe conflicto, no inventes una reconciliación: señálalo, conserva el hi
 - Arquitectura: [ARCHITECTURE.md](../architecture/ARCHITECTURE.md)
 - Modelo canónico: [CANONICAL-DATA-MODEL.md](../architecture/CANONICAL-DATA-MODEL.md)
 - Seguridad y aislamiento: [SECURITY.md](../architecture/SECURITY.md), [MULTITENANCY.md](../architecture/MULTITENANCY.md)
+- Modelo de amenazas: [THREAT-MODEL-MVP.md](../architecture/THREAT-MODEL-MVP.md)
 - Conectores: [CONNECTORS.md](../architecture/CONNECTORS.md)
 - Investigación inicial: [README.md](../research/README.md)
 - Decisiones: [DECISIONS.md](../development/DECISIONS.md)

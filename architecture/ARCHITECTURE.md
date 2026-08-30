@@ -35,6 +35,8 @@ El diagrama es conceptual: no define protocolos, proveedores, datos, límites de
 
 El modelo conceptual que orienta el piloto está en [CANONICAL-DATA-MODEL.md](CANONICAL-DATA-MODEL.md).
 
+Los riesgos y límites de confianza del piloto están en [THREAT-MODEL-MVP.md](THREAT-MODEL-MVP.md).
+
 ## Fuera de alcance actual
 
 - Decisiones de lenguaje, framework, nube, base de datos o proveedor de IA.

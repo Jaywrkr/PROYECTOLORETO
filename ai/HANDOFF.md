@@ -14,6 +14,7 @@
 - Se propuso, sin aprobar, un MVP de solo lectura con vSphere y una fuente de gestión de servidores; se añadieron límites, competencia y criterios de seguridad a investigar.
 - Se preparó el plan ejecutable de prueba de factibilidad, incluido el registro de evidencia no sensible y cierre seguro.
 - Se definieron, como hipótesis, las vistas mínimas del MVP y el modelo canónico de tenant, fuentes, activos, observaciones y relaciones.
+- Se documentó el modelo de amenazas del piloto con pruebas de aislamiento, privilegio mínimo, secretos, Collector y calidad de datos.
 
 ## Decisiones recientes
 
@@ -44,6 +45,7 @@ Revisar la especificación de MVP y el modelo canónico con el equipo de Coresol
 - [Especificación de MVP](../product/MVP-SPECIFICATION.md)
 - [Arquitectura conceptual](../architecture/ARCHITECTURE.md)
 - [Modelo canónico](../architecture/CANONICAL-DATA-MODEL.md)
+- [Modelo de amenazas](../architecture/THREAT-MODEL-MVP.md)
 - [Conectores](../architecture/CONNECTORS.md)
 - [Seguridad](../architecture/SECURITY.md)
 - [Registro de decisiones](../development/DECISIONS.md)
