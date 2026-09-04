@@ -6,6 +6,8 @@
 
 La información podría obtenerse mediante APIs de fabricante, SNMP, logs, herramientas existentes u otros mecanismos autorizados. Un Collector dentro del entorno del cliente podría consolidar o transmitir datos de manera segura hacia una plataforma central.
 
+**TO INVESTIGATE:** La forma concreta del Collector (agente propio, adaptación de un colector existente o conexión directa sin agente local) no está decidida. Una comparación de opciones y sus riesgos operativos está en [MULTITENANCY-COLLECTOR-OPTIONS.md](../research/MULTITENANCY-COLLECTOR-OPTIONS.md).
+
 ## Matriz inicial de investigación
 
 | Tecnología / familia | Fuente potencial | Datos a evaluar | Estado |

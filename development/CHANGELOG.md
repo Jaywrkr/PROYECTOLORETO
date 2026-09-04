@@ -19,6 +19,7 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 - Backlog de investigación que separa dependencias de piloto, decisión de MVP y futuras integraciones.
 - Investigación de escritorio de integraciones posteriores: Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat.
 - Guia PDF paso a paso para preparar el laboratorio interno de VMware y XClarity.
+- Comparación de opciones de escritorio para aislamiento multi-tenant y arquitectura del Collector, con dos nuevos ítems P0 en el backlog de investigación (RB-007, RB-008).
 
 ## [2026-08-29]
 

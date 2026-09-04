@@ -1,6 +1,6 @@
 # Handoff de Proyecto Loreto
 
-> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-08-30.
+> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-09-04.
 
 ## Estado actual
 
@@ -19,6 +19,7 @@
 - Se ordenó la investigación pendiente por dependencias del piloto, validación de MVP y futuras integraciones.
 - Se recopiló investigación de escritorio para Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat; ninguna integración fue seleccionada.
 - Se creó una guia PDF operativa para que infraestructura prepare el laboratorio interno de Loreto.
+- Se identificaron dos decisiones estructurales pendientes que condicionan el resto del piloto (estrategia de aislamiento multi-tenant y arquitectura del Collector) y se documentó una comparación de opciones de escritorio para ambas, sin cerrar ninguna decisión. Se añadieron RB-007 y RB-008 al backlog de investigación como P0.
 
 ## Decisiones recientes
 
@@ -30,6 +31,8 @@
 2. ¿Qué campos, versiones y relaciones son realmente accesibles en ese entorno?
 3. ¿Qué requisitos de seguridad, residencia y despliegue aplican a dicho piloto?
 4. ¿Qué evidencia confirma una diferenciación y modelo comercial viables?
+5. ¿Qué estrategia de aislamiento multi-tenant (base compartida con controles lógicos, esquema por tenant, base por tenant o híbrida) es sostenible para el número y tipo de tenants esperados?
+6. ¿El Collector debe ser un agente propio, una adaptación de un colector existente, o puede evitarse con conexión directa autorizada? ¿Qué patrón de conectividad saliente exige la red típica de un cliente?
 
 ## Pendientes
 
@@ -37,10 +40,11 @@
 - Ejecutar una prueba técnica de solo lectura contra las fuentes seleccionadas.
 - Revisar requisitos de seguridad, residencia y despliegue con el responsable del cliente.
 - Completar análisis de competencia, costes y modelo comercial con evidencia de mercado.
+- Validar contra un entorno real las opciones de aislamiento multi-tenant y de arquitectura del Collector (RB-007, RB-008) antes de comprometer el modelo canónico o iniciar cualquier desarrollo.
 
 ## Próximo paso recomendado
 
-Revisar la especificación de MVP y el modelo canónico con el equipo de Coresolutions. Luego preparar una prueba de factibilidad de solo lectura con un entorno vSphere y una fuente de servidores disponible, usando los campos y relaciones definidos como lista de validación.
+Revisar la especificación de MVP y el modelo canónico con el equipo de Coresolutions. En paralelo a RB-001 (confirmar entorno de piloto), decidir con evidencia las dos preguntas estructurales de RB-007 y RB-008: son más caras de cambiar después de construir que el resto del alcance del piloto. Luego preparar una prueba de factibilidad de solo lectura con un entorno vSphere y una fuente de servidores disponible, usando los campos y relaciones definidos como lista de validación.
 
 ## Archivos relevantes
 
@@ -61,3 +65,4 @@ Revisar la especificación de MVP y el modelo canónico con el equipo de Coresol
 - [Seguridad y despliegue](../research/SECURITY-DEPLOYMENT-INITIAL.md)
 - [Backlog de investigación](../research/RESEARCH-BACKLOG.md)
 - [Investigación de integraciones posteriores](../research/CONNECTOR-EXPANSION-DESK-RESEARCH.md)
+- [Opciones de multi-tenancy y Collector](../research/MULTITENANCY-COLLECTOR-OPTIONS.md)
