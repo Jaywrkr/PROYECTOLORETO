@@ -99,3 +99,7 @@ La prueba se considera técnicamente prometedora solo si se cumple todo lo sigui
 Un resultado fallido también es valioso: debe registrarse con evidencia y actualizar la hipótesis de MVP. Cualquier selección de integración o inicio de desarrollo posterior requiere un ADR y autorización explícita.
 
 El análisis de amenazas y las puertas de seguridad que aplican a esta prueba están en [THREAT-MODEL-MVP.md](../architecture/THREAT-MODEL-MVP.md).
+
+## Script de apoyo
+
+Un script de solo lectura para ejecutar PT-02, PT-03, PT-04 y el manejo de errores de PT-06 está en [pilot-scripts/readonly_pilot_check.py](pilot-scripts/readonly_pilot_check.py), con sus reglas de uso en [pilot-scripts/README.md](pilot-scripts/README.md). No sustituye PT-01, PT-05 ni PT-07, que siguen siendo pasos manuales.
