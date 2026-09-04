@@ -23,6 +23,7 @@
 - Se creó `research/pilot-scripts/readonly_pilot_check.py`, un script de solo lectura para ejecutar PT-02/PT-03/PT-04/PT-06 del plan de piloto contra vSphere y XClarity, pensado para correr dentro de la red del responsable del entorno, no desde una sesión remota.
 - El responsable del proyecto confirmó tener infraestructura propia (vSphere y XClarity/iLO) para pruebas y pidió avanzar hacia una PoC técnica de flujo completo para evaluar viabilidad de producto.
 - Se registró `ADR-0002` (ACCEPTED): autoriza una PoC acotada (Collector + normalización mínima al modelo canónico + reporte simple) contra infraestructura propia del responsable del proyecto, sin comprometer stack, nube ni datos de cliente real.
+- Se construyó la PoC en `poc/collector/`: normaliza lecturas de vSphere y XClarity al modelo canónico mínimo (Tenant/Source/SyncRun/Asset/Observation/Relationship), con alias no reversibles y lista blanca de campos permitidos. No se ejecutó todavía contra el laboratorio real; queda pendiente para el responsable del proyecto, que la corre localmente en su propia red.
 
 ## Decisiones recientes
 
@@ -48,7 +49,7 @@
 
 ## Próximo paso recomendado
 
-Construir la PoC autorizada en `ADR-0002`: un Collector que corre en la red del responsable del proyecto, lee vSphere y XClarity de solo lectura, normaliza al modelo canónico mínimo (Asset/Observation/Relationship) y produce salida JSON saneada. En paralelo, decidir con evidencia las preguntas estructurales de RB-007 y RB-008 usando lo que la PoC muestre sobre conectividad y aislamiento.
+Ejecutar `poc/collector/collector.py` en la red del responsable del proyecto contra su vSphere/XClarity propios, revisar el bundle canónico local y el resumen saneado, y traer de vuelta ese resumen (nunca el JSON completo) para evaluar si la normalización y las relaciones observadas tienen sentido. En paralelo, decidir con evidencia las preguntas estructurales de RB-007 y RB-008 usando lo que la PoC muestre sobre conectividad y aislamiento.
 
 ## Archivos relevantes
 
@@ -70,3 +71,4 @@ Construir la PoC autorizada en `ADR-0002`: un Collector que corre en la red del 
 - [Backlog de investigación](../research/RESEARCH-BACKLOG.md)
 - [Investigación de integraciones posteriores](../research/CONNECTOR-EXPANSION-DESK-RESEARCH.md)
 - [Opciones de multi-tenancy y Collector](../research/MULTITENANCY-COLLECTOR-OPTIONS.md)
+- [PoC del Collector](../poc/README.md)

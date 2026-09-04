@@ -22,6 +22,7 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 - Comparación de opciones de escritorio para aislamiento multi-tenant y arquitectura del Collector, con dos nuevos ítems P0 en el backlog de investigación (RB-007, RB-008).
 - Script de solo lectura para ejecutar parte del plan de piloto (PT-02/PT-03/PT-04/PT-06) contra vSphere y XClarity.
 - `ADR-0002`: autorización de una PoC técnica acotada contra infraestructura propia.
+- PoC del Collector (`poc/collector/`): normaliza lecturas de vSphere y XClarity al modelo canónico mínimo, con alias no reversibles y lista blanca de campos. Código desechable, no de producto.
 
 ## [2026-08-29]
 
