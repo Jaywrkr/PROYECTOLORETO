@@ -19,6 +19,10 @@ Si el flujo completo **leer (solo lectura) → normalizar al modelo canónico �
 - `collector/collector.py` — se conecta a vSphere y XClarity (mismas variables de entorno que [research/pilot-scripts](../research/pilot-scripts/README.md)), normaliza lo leído y escribe un bundle canónico local.
 - `collector/.env.example` — plantilla de configuración; nunca completar `.env` con datos reales dentro del repositorio.
 
+## Antes de correrlo
+
+Usa [collector/SETUP-REQUEST.md](collector/SETUP-REQUEST.md) como checklist para pedir al responsable del vCenter/XClarity (aunque sea tu propio equipo) las cuentas de solo lectura, versiones y conectividad necesarias.
+
 ## Cómo correrlo
 
 ```bash
