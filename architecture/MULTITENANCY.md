@@ -26,3 +26,7 @@
 ## Criterios de aceptación futuros
 
 Antes de implementar, cada propuesta debe demostrar controles de prevención, pruebas de aislamiento, auditoría y tratamiento de fallos que impidan la mezcla de tenants.
+
+## Investigación relacionada
+
+Una comparación de estrategias candidatas (base compartida con controles lógicos, esquema por tenant, base por tenant, modelo híbrido) está en [MULTITENANCY-COLLECTOR-OPTIONS.md](../research/MULTITENANCY-COLLECTOR-OPTIONS.md). Es investigación de escritorio, no una decisión.

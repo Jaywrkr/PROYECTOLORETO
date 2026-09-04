@@ -12,6 +12,7 @@ Esta carpeta preserva evidencia externa y análisis de descubrimiento. Cada docu
 | [COMPETITIVE-LANDSCAPE.md](COMPETITIVE-LANDSCAPE.md) | Alternativas de mercado y diferenciación a validar | TO INVESTIGATE |
 | [RESEARCH-BACKLOG.md](RESEARCH-BACKLOG.md) | Investigación ordenada por dependencias y evidencia requerida | TO INVESTIGATE |
 | [CONNECTOR-EXPANSION-DESK-RESEARCH.md](CONNECTOR-EXPANSION-DESK-RESEARCH.md) | Superficies de integración para Veeam, Check Point, IBM, Cisco, Aruba y Red Hat | TO INVESTIGATE |
+| [MULTITENANCY-COLLECTOR-OPTIONS.md](MULTITENANCY-COLLECTOR-OPTIONS.md) | Comparación de opciones de aislamiento multi-tenant y arquitectura del Collector | TO INVESTIGATE |
 
 ## Regla de evidencia
 

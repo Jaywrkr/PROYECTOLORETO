@@ -1,6 +1,6 @@
 # Handoff de Proyecto Loreto
 
-> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-08-30.
+> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-09-04 (sesión 2).
 
 ## Estado actual
 
@@ -19,10 +19,16 @@
 - Se ordenó la investigación pendiente por dependencias del piloto, validación de MVP y futuras integraciones.
 - Se recopiló investigación de escritorio para Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat; ninguna integración fue seleccionada.
 - Se creó una guia PDF operativa para que infraestructura prepare el laboratorio interno de Loreto.
+- Se identificaron dos decisiones estructurales pendientes que condicionan el resto del piloto (estrategia de aislamiento multi-tenant y arquitectura del Collector) y se documentó una comparación de opciones de escritorio para ambas, sin cerrar ninguna decisión. Se añadieron RB-007 y RB-008 al backlog de investigación como P0.
+- Se creó `research/pilot-scripts/readonly_pilot_check.py`, un script de solo lectura para ejecutar PT-02/PT-03/PT-04/PT-06 del plan de piloto contra vSphere y XClarity, pensado para correr dentro de la red del responsable del entorno, no desde una sesión remota.
+- El responsable del proyecto confirmó tener infraestructura propia (vSphere y XClarity/iLO) para pruebas y pidió avanzar hacia una PoC técnica de flujo completo para evaluar viabilidad de producto.
+- Se registró `ADR-0002` (ACCEPTED): autoriza una PoC acotada (Collector + normalización mínima al modelo canónico + reporte simple) contra infraestructura propia del responsable del proyecto, sin comprometer stack, nube ni datos de cliente real.
+- Se construyó la PoC en `poc/collector/`: normaliza lecturas de vSphere y XClarity al modelo canónico mínimo (Tenant/Source/SyncRun/Asset/Observation/Relationship), con alias no reversibles y lista blanca de campos permitidos. No se ejecutó todavía contra el laboratorio real; queda pendiente para el responsable del proyecto, que la corre localmente en su propia red.
 
 ## Decisiones recientes
 
 - `ADR-0001` (ACCEPTED): este repositorio es la fuente de verdad de descubrimiento.
+- `ADR-0002` (ACCEPTED): autoriza una PoC técnica acotada (Collector, normalización mínima, reporte simple) contra infraestructura propia, sin comprometer producto ni datos de cliente.
 
 ## Preguntas abiertas prioritarias
 
@@ -30,6 +36,8 @@
 2. ¿Qué campos, versiones y relaciones son realmente accesibles en ese entorno?
 3. ¿Qué requisitos de seguridad, residencia y despliegue aplican a dicho piloto?
 4. ¿Qué evidencia confirma una diferenciación y modelo comercial viables?
+5. ¿Qué estrategia de aislamiento multi-tenant (base compartida con controles lógicos, esquema por tenant, base por tenant o híbrida) es sostenible para el número y tipo de tenants esperados?
+6. ¿El Collector debe ser un agente propio, una adaptación de un colector existente, o puede evitarse con conexión directa autorizada? ¿Qué patrón de conectividad saliente exige la red típica de un cliente?
 
 ## Pendientes
 
@@ -37,10 +45,11 @@
 - Ejecutar una prueba técnica de solo lectura contra las fuentes seleccionadas.
 - Revisar requisitos de seguridad, residencia y despliegue con el responsable del cliente.
 - Completar análisis de competencia, costes y modelo comercial con evidencia de mercado.
+- Validar contra un entorno real las opciones de aislamiento multi-tenant y de arquitectura del Collector (RB-007, RB-008) antes de comprometer el modelo canónico o iniciar cualquier desarrollo.
 
 ## Próximo paso recomendado
 
-Revisar la especificación de MVP y el modelo canónico con el equipo de Coresolutions. Luego preparar una prueba de factibilidad de solo lectura con un entorno vSphere y una fuente de servidores disponible, usando los campos y relaciones definidos como lista de validación.
+Ejecutar `poc/collector/collector.py` en la red del responsable del proyecto contra su vSphere/XClarity propios, revisar el bundle canónico local y el resumen saneado, y traer de vuelta ese resumen (nunca el JSON completo) para evaluar si la normalización y las relaciones observadas tienen sentido. En paralelo, decidir con evidencia las preguntas estructurales de RB-007 y RB-008 usando lo que la PoC muestre sobre conectividad y aislamiento.
 
 ## Archivos relevantes
 
@@ -61,3 +70,5 @@ Revisar la especificación de MVP y el modelo canónico con el equipo de Coresol
 - [Seguridad y despliegue](../research/SECURITY-DEPLOYMENT-INITIAL.md)
 - [Backlog de investigación](../research/RESEARCH-BACKLOG.md)
 - [Investigación de integraciones posteriores](../research/CONNECTOR-EXPANSION-DESK-RESEARCH.md)
+- [Opciones de multi-tenancy y Collector](../research/MULTITENANCY-COLLECTOR-OPTIONS.md)
+- [PoC del Collector](../poc/README.md)

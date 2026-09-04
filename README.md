@@ -1,6 +1,6 @@
 # Proyecto Loreto — documentación de descubrimiento
 
-> **Estado del proyecto: HYPOTHESIS.** Este repositorio documenta la exploración de un producto de Coresolutions; no contiene ni autoriza todavía desarrollo de aplicación.
+> **Estado del proyecto: HYPOTHESIS.** Este repositorio documenta la exploración de un producto de Coresolutions. Desde `ADR-0002` contiene una PoC técnica acotada y desechable ([poc/](poc/README.md)); fuera de ese alcance autorizado, no hay desarrollo de aplicación.
 
 ## Propósito
 
@@ -26,10 +26,11 @@ Las instrucciones completas para agentes están en [AI-INSTRUCTIONS.md](ai/AI-IN
 | Investigación | [README.md](research/README.md) | Evidencia externa, análisis inicial y límites de las conclusiones. |
 | Desarrollo | [PILOT-CHARTER.md](development/PILOT-CHARTER.md) | Alcance, roles, puertas y decisión posterior al piloto. |
 | Continuidad | [HANDOFF.md](ai/HANDOFF.md) | Estado de la última sesión y siguiente paso recomendado. |
+| PoC técnica | [poc/README.md](poc/README.md) | Collector de solo lectura desechable, autorizado por ADR-0002 contra infraestructura propia. |
 
 ## Límites actuales
 
-- No hay código de aplicación, proveedor cloud, esquema de datos, APIs ni integraciones seleccionados.
+- No hay proveedor cloud, esquema de datos de producto, APIs ni integraciones seleccionados. El único código de aplicación existente es la PoC desechable en `poc/`, autorizada por `ADR-0002` y limitada a infraestructura propia.
 - Las capacidades por fabricante, la competencia, el modelo comercial, costos y viabilidad son temas por investigar.
 - La separación estricta entre clientes es un requisito de diseño a preservar; su implementación concreta permanece abierta.
 

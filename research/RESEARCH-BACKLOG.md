@@ -1,6 +1,6 @@
 # Backlog de investigación
 
-> **Estado: TO INVESTIGATE.** Última actualización: 2026-08-30. El orden refleja dependencias para validar el piloto; no es una decisión de roadmap comercial ni compromiso de construir cada integración.
+> **Estado: TO INVESTIGATE.** Última actualización: 2026-09-04. El orden refleja dependencias para validar el piloto; no es una decisión de roadmap comercial ni compromiso de construir cada integración.
 
 ## Cómo usar este backlog
 
@@ -18,7 +18,9 @@
 | RB-003 | Elegir XClarity o iLO/Redfish disponible | Fuente de servidores y versión confirmadas | RB-001 |
 | RB-004 | Revisar red, proxy, certificados y salida de Collector | Patrón de conectividad autorizado o bloqueo documentado | RB-001 |
 | RB-005 | Revisar privilegios y manejo de secretos | Cuentas solo lectura, propietario, revocación y saneamiento de evidencia | RB-002, RB-003 |
-| RB-006 | Ejecutar PT-01 a PT-07 | Evidencia de cobertura, calidad, aislamiento y cierre | RB-002 a RB-005 |
+| RB-007 | Evaluar estrategia de aislamiento multi-tenant (base compartida con RLS, esquema por tenant, base por tenant o híbrida) contra el entorno de piloto | Estrategia candidata con evidencia de aislamiento verificable, o bloqueo documentado | RB-001 |
+| RB-008 | Definir arquitectura candidata del Collector (agente propio, adaptación de un colector existente, o conexión directa) y su patrón de conectividad saliente | Decisión candidata de forma del Collector, validada contra red/proxy/certificados del piloto | RB-001, RB-004 |
+| RB-006 | Ejecutar PT-01 a PT-07 | Evidencia de cobertura, calidad, aislamiento y cierre | RB-002 a RB-005, RB-007, RB-008 |
 
 ## P1 — Decidir alcance viable del MVP
 
@@ -63,4 +65,5 @@ Un ítem queda `COMPLETED` solo cuando contiene: pregunta respondida o limitaci�
 - [Carta de piloto](../development/PILOT-CHARTER.md)
 - [Plan de piloto](PILOT-READONLY-PLAN.md)
 - [Factibilidad técnica inicial](TECHNICAL-FEASIBILITY-INITIAL.md)
+- [Opciones de multi-tenancy y Collector](MULTITENANCY-COLLECTOR-OPTIONS.md)
 - [Decisiones](../development/DECISIONS.md)
