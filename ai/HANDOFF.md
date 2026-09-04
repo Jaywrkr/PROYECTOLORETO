@@ -1,6 +1,6 @@
 # Handoff de Proyecto Loreto
 
-> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-09-04.
+> Actualizar al finalizar cada sesión significativa. Última actualización: 2026-09-04 (sesión 2).
 
 ## Estado actual
 
@@ -20,10 +20,14 @@
 - Se recopiló investigación de escritorio para Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat; ninguna integración fue seleccionada.
 - Se creó una guia PDF operativa para que infraestructura prepare el laboratorio interno de Loreto.
 - Se identificaron dos decisiones estructurales pendientes que condicionan el resto del piloto (estrategia de aislamiento multi-tenant y arquitectura del Collector) y se documentó una comparación de opciones de escritorio para ambas, sin cerrar ninguna decisión. Se añadieron RB-007 y RB-008 al backlog de investigación como P0.
+- Se creó `research/pilot-scripts/readonly_pilot_check.py`, un script de solo lectura para ejecutar PT-02/PT-03/PT-04/PT-06 del plan de piloto contra vSphere y XClarity, pensado para correr dentro de la red del responsable del entorno, no desde una sesión remota.
+- El responsable del proyecto confirmó tener infraestructura propia (vSphere y XClarity/iLO) para pruebas y pidió avanzar hacia una PoC técnica de flujo completo para evaluar viabilidad de producto.
+- Se registró `ADR-0002` (ACCEPTED): autoriza una PoC acotada (Collector + normalización mínima al modelo canónico + reporte simple) contra infraestructura propia del responsable del proyecto, sin comprometer stack, nube ni datos de cliente real.
 
 ## Decisiones recientes
 
 - `ADR-0001` (ACCEPTED): este repositorio es la fuente de verdad de descubrimiento.
+- `ADR-0002` (ACCEPTED): autoriza una PoC técnica acotada (Collector, normalización mínima, reporte simple) contra infraestructura propia, sin comprometer producto ni datos de cliente.
 
 ## Preguntas abiertas prioritarias
 
@@ -44,7 +48,7 @@
 
 ## Próximo paso recomendado
 
-Revisar la especificación de MVP y el modelo canónico con el equipo de Coresolutions. En paralelo a RB-001 (confirmar entorno de piloto), decidir con evidencia las dos preguntas estructurales de RB-007 y RB-008: son más caras de cambiar después de construir que el resto del alcance del piloto. Luego preparar una prueba de factibilidad de solo lectura con un entorno vSphere y una fuente de servidores disponible, usando los campos y relaciones definidos como lista de validación.
+Construir la PoC autorizada en `ADR-0002`: un Collector que corre en la red del responsable del proyecto, lee vSphere y XClarity de solo lectura, normaliza al modelo canónico mínimo (Asset/Observation/Relationship) y produce salida JSON saneada. En paralelo, decidir con evidencia las preguntas estructurales de RB-007 y RB-008 usando lo que la PoC muestre sobre conectividad y aislamiento.
 
 ## Archivos relevantes
 

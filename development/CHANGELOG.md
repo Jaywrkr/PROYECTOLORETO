@@ -20,6 +20,8 @@ Este registro conserva cambios relevantes del contexto y la documentación. Sigu
 - Investigación de escritorio de integraciones posteriores: Veeam, Check Point, IBM Storage, Cisco, Aruba y Red Hat.
 - Guia PDF paso a paso para preparar el laboratorio interno de VMware y XClarity.
 - Comparación de opciones de escritorio para aislamiento multi-tenant y arquitectura del Collector, con dos nuevos ítems P0 en el backlog de investigación (RB-007, RB-008).
+- Script de solo lectura para ejecutar parte del plan de piloto (PT-02/PT-03/PT-04/PT-06) contra vSphere y XClarity.
+- `ADR-0002`: autorización de una PoC técnica acotada contra infraestructura propia.
 
 ## [2026-08-29]
 
